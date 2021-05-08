@@ -1,22 +1,211 @@
 <!DOCTYPE html>
 <html lang="es">
-<head> 
-<title>Mini Damas</title> 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="Description" content="Juega a las damas online. Reta al ordenador y consigue ganarle en el menor tiempo posible." />
+  <head> 
+    <title>Mini Damas</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="Juega a las damas online. Reta al ordenador y consigue ganarle en el menor tiempo posible." />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="css/styles.css"> 
+    <link rel="alternate" hreflang="en" href="http://www.minicheckers.com" />
+</head>
 <body>
+ <header>
+    <nav class="navbar navbar-static-top navbar-inner" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button  style= "visibility:hidden" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          </button>
+          <ul class="nav navbar-nav" style="list-style: none;">
+            <li style="float:left; margin-right: 30px;"><a class="navbar-brand" href="/">Mini Damas</a></li>
+            <li style="float:left; margin-right: -40px;"><a href="/" title="Damas online">Damas</a></li>
+           <li><a href="/descripcion.html" title="Qué son las damas" style="margin-left: 80px;">¿Qué es?</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+</header>
+
+<div class="container">
+
+    <ul class="breadcrumb">
+      <li style = "float: left"><a href="/">Mini Damas</a></li>
+      <li style= "visibility:hidden; float: left" >"</li>
+      <li style = "float: left">/</li>
+      <li style= "visibility:hidden; float: left" >"</li>
+      <li class="active"> Portada</li>
+    </ul>
+  
     <div class="row">
         <div class="col-md-12">
-        	<div id="desc">
-        		<p>Las <strong>damas</strong> es un juego de mesa para dos personas en un tablero de 64 cuadros. El juego consiste en mover las fichas en diagonal sobre los cuadros negros con el objetivo de comer las piezas del contrario saltando sobre ellas.</p>
-        	<p>Cada jugador dispone de 12 fichas de un mismo color situadas en las casillas negras más próximas a éste. El objetivo del juego es capturar las fichas del oponente o acorralarlas para que no puedan realizar movimientos.</p>
-        		<p>Si no conoces las reglas, sigue leyendo cómo se juega en <a href="/">Reglas de las damas</a>.</p>		       		
-        	</div>
-        </div>
+        	<div class="tablero">
+                <div id="checkersContainer">
+                   
+  <center>
+  <table class="border-collapse collapse" border="5px solid #999999">
+  <tr>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-blanco.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-blanco.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-blanco.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+            <img src="img/Damas-blanco.png" width="60px" height="60px">
+    </td>
+  </tr>
+
+  <tr>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-blanco.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-blanco.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-blanco.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-blanco.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+  </tr>
+
+  <tr>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-blanco.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-blanco.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-blanco.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+            <img src="img/Damas-blanco.png" width="60px" height="60px">
+    </td>
+  </tr>
+
+  <tr>
+    <td bgcolor="black" width="60px" height="60px"></td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px"></td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px"></td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px"></td>
+    <td width="60px" height="60px"></td>
+  </tr>
+
+  <tr>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px"></td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px"></td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px"></td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px"></td>
+  </tr>
+
+  <tr>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-rojo.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-rojo.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-rojo.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-rojo.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+  </tr
+
+  <tr>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-rojo.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-rojo.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-rojo.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+            <img src="img/Damas-rojo.png" width="60px" height="60px">
+    </td>
+  </tr>
+
+  <tr>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-rojo.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-rojo.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-rojo.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+    <td bgcolor="black" width="60px" height="60px">
+      <img src="img/Damas-rojo.png" width="60px" height="60px">
+    </td>
+    <td width="60px" height="60px"></td>
+  </tr
+  
+    </center>
+    </table>   
+
+  <div id="buttonContainer" class="text-center">
+    <div id="newGameButton" type="submit" value="Nueva Partida" class="btn btn-primary btn-block">
+        Nueva partida
     </div>
+  
+</div>
+</div>
+</div>
 </div>
 
+</div>
+
+  <!-- <center> -->
+  <div class="col-md-12">
+    <div id="desc">
+      <p>Las <strong>damas</strong> es un juego de mesa para dos personas en un tablero de 64 cuadros. El juego consiste en mover las fichas en diagonal sobre los cuadros negros con el objetivo de comer las piezas del contrario saltando sobre ellas.</p>
+    <p>Cada jugador dispone de 12 fichas de un mismo color situadas en las casillas negras más próximas a éste. El objetivo del juego es capturar las fichas del oponente o acorralarlas para que no puedan realizar movimientos.</p>
+      <p>Si no conoces las reglas, sigue leyendo cómo se juega en <a href="/que-son-las-damas.php">Reglas de las damas</a>.</p>
+    </div>
+  </div>
+
+<!-- 
+</center> -->
 <footer class="footer">
   <div class="container">
     <div class="row">

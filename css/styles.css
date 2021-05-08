@@ -1,0 +1,168 @@
+a
+{
+	color: #1E5096;
+	text-decoration: none;
+}
+
+body
+{
+  color: #333333;
+  background-color: #DDDDDD;
+}
+
+.navbar-inner
+{
+  padding-right: 0;
+  padding-left: 0;
+  background-color: #D4707A;
+}
+
+.navbar .navbar-brand {
+  font-family: 'Capriola', sans-serif;
+  display: contents;
+  float: left;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 1;
+  color: white;
+}
+
+h1
+{
+  margin: 0 0 20px 0;
+}
+
+.navbar .nav > li > a 
+{
+  float: none;
+  text-transform: uppercase;
+  padding: 12px 15px 100px 12px;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: transparent;
+          
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#checkersContainer {
+    width: 600px;
+    position: relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header 
+{
+  margin-top: 0px;
+  background-color: #eb4e4e;
+  color: white
+}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+    margin-right: 0px;
+    margin-left: 85px;
+}
+
+.breadcrumb {
+  padding: 4px 15px;
+  margin: 0 0 15px 0;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  word-spacing: 1px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: 50px;
+}
+
+ul, ol {
+  padding-left: 40px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+margin-bottom: 10px;
+}
+
+.footer 
+{
+padding: 19px 14px;
+margin-top: 40px;
+border-top: 1px solid #CAC3C3;
+background-color: white;
+}
+
+#desc {
+  margin: 20px 0 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 85px;
+  margin-right: 85px;
+  background: #efefef;
+}
+
+#checkersBoard .captured{
+	display:none;
+	filter:alpha(opacity=40);
+}
+
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+	#newGameButton {
+		-moz-border-radius: 12px;
+		-webkit-border-radius: 12px;
+		background: -moz-linear-gradient(center top , #57aeea, #3d94d1) repeat scroll 0 0 transparent;
+		background: -webkit-gradient(linear,center bottom,center top,from(#3d94d1),to(#57aeea));
+		filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#57aeea',EndColorStr='#3d94d1');
+		background-color: lightBlue;
+		display: inline-block;
+		font-size: 21px;
+		margin-top: 20px;
+		padding: 10px 45px;
+		vertical-align: middle;
+		font-family: Arial;
+		color: #fff;
+		border: 1px solid #84C5F3;
+		text-shadow: 0 0 3px #333333;
+		cursor: pointer;
+		-moz-box-shadow: 0 0 8px 1px #888888;
+		-webkit-box-shadow: 0 0 8px 1px #888888;
+	}
